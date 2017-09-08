@@ -1,10 +1,12 @@
-# copy-path
+# atom-copy-path package
+
+(This is forked from https://github.com/s-shin/atom-copy-path)
 
 Copy a file path flexibly!
 
 ## Context Menu on a Tab
 
-![capture](https://raw.githubusercontent.com/s-shin/atom-copy-path/master/capture.png)
+![capture](https://raw.githubusercontent.com/jacaetevha/atom-copy-path/master/capture.png)
 
 ## Command Palette
 

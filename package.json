@@ -1,21 +1,27 @@
 {
-  "name": "copy-path",
-  "version": "0.4.2",
-  "description": "Copy file paths in variable styles.",
+  "name": "configurable-copy-path",
+  "version": "0.0.1",
+  "description": "Copy file paths in variable styles, optionally ignoring a prefix",
   "main": "lib/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "config": {
+    "ignorePath": {
+      "type": "string",
+      "default": ""
+    }
+  },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/s-shin/atom-copy-path.git"
+    "url": "git+https://github.com/jacaetevha/atom-copy-path.git"
   },
-  "author": "Shintaro Seki",
+  "author": "Jason Rogers",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/s-shin/atom-copy-path/issues"
+    "url": "https://github.com/jacaetevha/atom-copy-path/issues"
   },
-  "homepage": "https://github.com/s-shin/atom-copy-path#readme",
+  "homepage": "https://github.com/jacaetevha/atom-copy-path#readme",
   "engines": {
     "atom": ">=1.0.0"
   }

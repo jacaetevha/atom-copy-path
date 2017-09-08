@@ -1,0 +1,121 @@
+menu: [
+  label: "Packages"
+  submenu: [
+    {
+      label: "Copy Path"
+      submenu: [
+        {
+          label: "Copy Project-Relative Path Ignoring Prefix"
+          command: "configurable-copy-path:copy-project-relative-path-ignoring-prefix"
+        }
+        {
+          label: "Copy Basename"
+          command: "configurable-copy-path:copy-basename"
+        }
+        {
+          label: "Copy Extension"
+          command: "configurable-copy-path:copy-extension"
+        }
+        {
+          label: "Copy Basename w/o Extension"
+          command: "configurable-copy-path:copy-basename-wo-extension"
+        }
+        {
+          label: "Copy Project-Relative Path"
+          command: "configurable-copy-path:copy-project-relative-path"
+        }
+        {
+          label: "Copy Full Path"
+          command: "configurable-copy-path:copy-full-path"
+        }
+        {
+          label: "Copy Base Dirname"
+          command: "configurable-copy-path:copy-base-dirname"
+        }
+        {
+          label: "Copy Project-Relative Dirname"
+          command: "configurable-copy-path:copy-project-relative-dirname"
+        }
+        {
+          label: "Copy Full Dirname"
+          command: "configurable-copy-path:copy-full-dirname"
+        }
+      ]
+    }
+  ]
+]
+"context-menu":
+  "atom-text-editor": [
+    {
+      label: "Copy Path"
+      submenu: [
+        {
+          label: "Copy Project-Relative Path Ignoring Prefix"
+          command: "configurable-copy-path:copy-project-relative-path-ignoring-prefix"
+        }
+        {
+          label: "Copy Line Reference"
+          command: "configurable-copy-path:copy-line-reference"
+        }
+        {
+          label: "Copy Basename"
+          command: "configurable-copy-path:copy-basename"
+        }
+        {
+          label: "Copy Basename w/o Extension"
+          command: "configurable-copy-path:copy-basename-wo-extension"
+        }
+        {
+          label: "Copy Project-Relative Path"
+          command: "configurable-copy-path:copy-project-relative-path"
+        }
+        {
+          label: "Copy Project-Relative Dirname"
+          command: "configurable-copy-path:copy-project-relative-dirname"
+        }
+      ]
+    }
+  ]
+  ".tab": [
+    {
+      label: "Copy Path"
+      submenu: [
+        {
+          label: "Copy Project-Relative Path Ignoring Prefix"
+          command: "configurable-copy-path:copy-project-relative-path-ignoring-prefix"
+        }
+        {
+          label: "Copy Basename"
+          command: "configurable-copy-path:copy-basename"
+        }
+        {
+          label: "Copy Extension"
+          command: "configurable-copy-path:copy-extension"
+        }
+        {
+          label: "Copy Basename w/o Extension"
+          command: "configurable-copy-path:copy-basename-wo-extension"
+        }
+        {
+          label: "Copy Project-Relative Path"
+          command: "configurable-copy-path:copy-project-relative-path"
+        }
+        {
+          label: "Copy Full Path"
+          command: "configurable-copy-path:copy-full-path"
+        }
+        {
+          label: "Copy Base Dirname"
+          command: "configurable-copy-path:copy-base-dirname"
+        }
+        {
+          label: "Copy Project-Relative Dirname"
+          command: "configurable-copy-path:copy-project-relative-dirname"
+        }
+        {
+          label: "Copy Full Dirname"
+          command: "configurable-copy-path:copy-full-dirname"
+        }
+      ]
+    }
+  ]
