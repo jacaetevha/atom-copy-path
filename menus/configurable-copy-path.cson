@@ -5,8 +5,8 @@ menu: [
       label: "Copy Path"
       submenu: [
         {
-          label: "Copy Project-Relative Path Ignoring Prefix"
-          command: "configurable-copy-path:copy-project-relative-path-ignoring-prefix"
+          label: "Copy After Path"
+          command: "configurable-copy-path:copy-after-path"
         }
         {
           label: "Copy Basename"
@@ -50,8 +50,8 @@ menu: [
       label: "Copy Path"
       submenu: [
         {
-          label: "Copy Project-Relative Path Ignoring Prefix"
-          command: "configurable-copy-path:copy-project-relative-path-ignoring-prefix"
+          label: "Copy After Path"
+          command: "configurable-copy-path:copy-after-path"
         }
         {
           label: "Copy Line Reference"
@@ -81,8 +81,8 @@ menu: [
       label: "Copy Path"
       submenu: [
         {
-          label: "Copy Project-Relative Path Ignoring Prefix"
-          command: "configurable-copy-path:copy-project-relative-path-ignoring-prefix"
+          label: "Copy After Path"
+          command: "configurable-copy-path:copy-after-path"
         }
         {
           label: "Copy Basename"
