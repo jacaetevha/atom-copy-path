@@ -1,6 +1,6 @@
 {
   "name": "configurable-copy-path",
-  "version": "0.0.7",
+  "version": "0.0.8",
   "description": "Copy file paths in variable styles, optionally ignoring a prefix",
   "main": "lib/index.js",
   "scripts": {
