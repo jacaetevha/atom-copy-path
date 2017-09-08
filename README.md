@@ -1,4 +1,4 @@
-# atom-copy-path package
+# configurable-copy-path package
 
 (This is forked from https://github.com/s-shin/atom-copy-path)
 
@@ -6,22 +6,23 @@ Copy a file path flexibly!
 
 ## Context Menu on a Tab
 
-![capture](https://raw.githubusercontent.com/jacaetevha/atom-copy-path/master/capture.png)
+![capture](https://raw.githubusercontent.com/jacaetevha/configurable-copy-path/master/capture.png)
 
 ## Command Palette
 
 The path of the active text editor is copied.
 
-* `copy-path:copy-basename`
-* `copy-path:copy-extension`
-* `copy-path:copy-basename-wo-extension`
-* `copy-path:copy-project-relative-path`
-* `copy-path:copy-full-path`
-* `copy-path:copy-base-dirname`
-* `copy-path:copy-project-relative-dirname`
-* `copy-path:copy-full-dirname`
-* `copy-path:copy-line-reference`
-* `copy-path:copy-project-relative-path-web` (windows only)
+* `configurable-copy-path:copy-project-relative-path-ignoring-prefix`
+* `configurable-copy-path:copy-basename`
+* `configurable-copy-path:copy-extension`
+* `configurable-copy-path:copy-basename-wo-extension`
+* `configurable-copy-path:copy-project-relative-path`
+* `configurable-copy-path:copy-full-path`
+* `configurable-copy-path:copy-base-dirname`
+* `configurable-copy-path:copy-project-relative-dirname`
+* `configurable-copy-path:copy-full-dirname`
+* `configurable-copy-path:copy-line-reference`
+* `configurable-copy-path:copy-project-relative-path-web` (windows only)
 
 ## License
 
