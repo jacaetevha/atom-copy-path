@@ -12,7 +12,8 @@ Copy a file path flexibly!
 
 The path of the active text editor is copied.
 
-* `configurable-copy-path:copy-after-path`
+* `configurable-copy-path:copy-as-import-statement`
+* `configurable-copy-path:copy-as-require-statement`
 * `configurable-copy-path:copy-basename`
 * `configurable-copy-path:copy-extension`
 * `configurable-copy-path:copy-basename-wo-extension`

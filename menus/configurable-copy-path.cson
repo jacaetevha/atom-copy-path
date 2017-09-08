@@ -5,8 +5,12 @@ menu: [
       label: "Copy Path"
       submenu: [
         {
-          label: "Copy After Path"
-          command: "configurable-copy-path:copy-after-path"
+          label: "Copy As Import Statement"
+          command: "configurable-copy-path:copy-as-import-statement"
+        }
+        {
+          label: "Copy As Require Statement"
+          command: "configurable-copy-path:copy-as-require-statement"
         }
         {
           label: "Copy Basename"
@@ -50,8 +54,12 @@ menu: [
       label: "Copy Path"
       submenu: [
         {
-          label: "Copy After Path"
-          command: "configurable-copy-path:copy-after-path"
+          label: "Copy As Import Statement"
+          command: "configurable-copy-path:copy-as-import-statement"
+        }
+        {
+          label: "Copy As Require Statement"
+          command: "configurable-copy-path:copy-as-require-statement"
         }
         {
           label: "Copy Line Reference"
@@ -81,8 +89,12 @@ menu: [
       label: "Copy Path"
       submenu: [
         {
-          label: "Copy After Path"
-          command: "configurable-copy-path:copy-after-path"
+          label: "Copy As Import Statement"
+          command: "configurable-copy-path:copy-as-import-statement"
+        }
+        {
+          label: "Copy As Require Statement"
+          command: "configurable-copy-path:copy-as-require-statement"
         }
         {
           label: "Copy Basename"
